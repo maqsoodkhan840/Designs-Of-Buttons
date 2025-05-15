@@ -12,7 +12,7 @@ Designs-Of-Buttons/
 │
 ├── README.md
 │
-├── Design Of Buttons/
+├── design-of-buttons/
 │   ├── index.html
 │   └── style.css
 │
