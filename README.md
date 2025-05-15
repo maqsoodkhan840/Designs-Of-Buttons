@@ -30,7 +30,7 @@ Designs-Of-Buttons/
 
 ## 🚀 Live Preview
 
-- **Design Of Buttons**: [View Live](https://maqsoodkhan840.github.io/Designs-Of_Buttons/Design%20Of%20Buttons/)
+- **Design Of Buttons**: [View Live](https://maqsoodkhan840.github.io/Designs-Of-Buttons/)
 - **Neon Buttons**: _(link coming soon)_
 - **Glowing Buttons**: _(link coming soon)_
 
@@ -77,5 +77,5 @@ Let’s build a rich button design library together!
 
 ## ⭐ Show Your Support
 
-If you like this repo, consider giving it a ⭐ on [GitHub](https://github.com/maqsoodkhan840/Designs-Of_Buttons)!  
+If you like this repo, consider giving it a ⭐ on [GitHub](https://maqsoodkhan840.github.io/Designs-Of-Buttons/)!  
 It helps others discover it and motivates continued development.
