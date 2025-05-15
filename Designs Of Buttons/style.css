@@ -1,0 +1,236 @@
+/* ============================
+   Button Design Showcase CSS
+   ============================ */
+
+:root {
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --tertiary: #f0f2f5;
+  --success: #28a745;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --info: #17a2b8;
+  --hover-brighten: brightness(1.1);
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  padding: 2rem;
+  text-align: center;
+  margin: 0;
+  color: #333;
+}
+
+h1 {
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+/* Base Button Style */
+button {
+  padding: 0.65em 1.4em;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+/* Button Variants */
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+}
+.btn-primary:hover {
+  filter: var(--hover-brighten);
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  color: white;
+}
+.btn-secondary:hover {
+  filter: var(--hover-brighten);
+}
+
+.btn-tertiary {
+  background-color: var(--tertiary);
+  color: #333;
+}
+.btn-tertiary:hover {
+  background-color: #d6dade;
+}
+
+.btn-outline {
+  background: white;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+}
+.btn-outline:hover {
+  background: var(--primary);
+  color: white;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: #333;
+  box-shadow: none;
+}
+.btn-ghost:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.btn-icon {
+  background-color: var(--primary);
+  color: white;
+  border-radius: 50%;
+  width: 3.2rem;
+  height: 3.2rem;
+  font-size: 1.4rem;
+}
+.btn-icon:hover {
+  filter: var(--hover-brighten);
+}
+
+.btn-icon-text {
+  background: var(--primary);
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6em 1.2em;
+}
+.btn-icon-text:hover {
+  filter: var(--hover-brighten);
+}
+
+.btn-fab {
+  background: var(--success);
+  color: white;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  font-size: 1.5rem;
+  line-height: 1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.btn-fab:hover {
+  filter: var(--hover-brighten);
+}
+
+/* Disabled and Loading */
+button:disabled,
+.btn:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.loading::after {
+  content: " ⏳";
+  animation: pulse 1s infinite ease-in-out;
+}
+
+/* Toggle Button */
+.btn-toggle {
+  background: #ccc;
+  color: #333;
+}
+.btn-toggle.active {
+  background: var(--primary);
+  color: white;
+}
+
+/* Button Group */
+.btn-group {
+  display: inline-flex;
+}
+.btn-group .btn:not(:last-child) {
+  border-radius: 6px 0 0 6px;
+}
+.btn-group .btn:not(:first-child) {
+  border-radius: 0 6px 6px 0;
+  border-left: none;
+}
+
+/* Semantic Buttons */
+.btn-success {
+  background: var(--success);
+  color: white;
+}
+.btn-success:hover {
+  filter: var(--hover-brighten);
+}
+
+.btn-warning {
+  background: var(--warning);
+  color: black;
+}
+.btn-warning:hover {
+  filter: var(--hover-brighten);
+}
+
+.btn-danger {
+  background: var(--danger);
+  color: white;
+}
+.btn-danger:hover {
+  filter: var(--hover-brighten);
+}
+
+.btn-info {
+  background: var(--info);
+  color: white;
+}
+.btn-info:hover {
+  filter: var(--hover-brighten);
+}
+
+/* Animation */
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: feSpotLight) {
+  body {
+    background: #1e1e1e;
+    color: white;
+  }
+  .btn-ghost:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  footer a {
+    color: var(--info);
+  }
+}
