@@ -6,37 +6,41 @@ A collection of modern and creative button designs built with pure **HTML** and 
 
 ## 📁 Folder Structure
 
-Designs-Of-Buttons/
-│
-├── README.md
-│
-├── Design Of Buttons/
-│ ├── index.html
-│ └── style.css
-│
-├── Neon Buttons/
-│ ├── index.html
-│ └── style.css
-│
-├── Glowing Buttons/
-│ ├── index.html
-│ └── style.css
+```
 
----
+Designs-Of-Buttons/<br>
+│<br>
+├── README.md<br>
+│
+├── Design Of Buttons/<br>
+│   ├── index.html<br>
+│   └── style.css<br>
+│<br>
+├── Neon Buttons/<br>
+│   ├── index.html<br>
+│   └── style.css<br>
+│<br>
+├── Glowing Buttons/<br>
+│   ├── index.html<br>
+│   └── style.css<br>
+
+```
 
 ## 🚀 Live Preview
 
-Design Of Buttons
+- **Design Of Buttons**: [View Live](https://maqsoodkhan840.github.io/Designs-Of_Buttons/Design%20Of%20Buttons/)
+- **Neon Buttons**: _(link coming soon)_
+- **Glowing Buttons**: _(link coming soon)_
 
 ---
 
 ## ✨ Features
 
-- Responsive designs
-- Clean and readable CSS
-- Hover & active effects
-- Dark mode support (where applicable)
-- Ideal for inspiration or direct use in projects
+- 🎨 Multiple button styles (flat, neon, ghost, etc.)
+- 💡 Hover & active visual effects
+- 🌙 Dark mode support (where applicable)
+- ⚙️ Easily customizable via CSS variables
+- 📱 Responsive and mobile-friendly
 
 ---
 
@@ -49,15 +53,23 @@ Design Of Buttons
 
 ## 📌 Future Plans
 
-- Add more themed buttons: glassmorphism, 3D, animated, etc.
-- Add `README.md` to each folder with button previews
-- Create live GitHub Pages preview for each set
+- Add more button sets (e.g., Glassmorphism, 3D, Animated)
+- Add individual `README.md` files for each folder
+- Add more advanced interaction effects
+- Publish all sets with GitHub Pages for live demos
 
 ---
 
 ## 🤝 Contribution
 
-Contributions are welcome! Feel free to fork this repo, improve the designs, or add your own and submit a pull request.
+Contributions are welcome!  
+Feel free to:
+
+1. Fork the repo
+2. Add or improve button styles
+3. Submit a pull request
+
+Let’s build a rich button design library together!
 
 ---
 
@@ -69,4 +81,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## ⭐ Show Your Support
 
-If you like this project, give it a ⭐ on [GitHub](https://github.com/maqsoodkhan840/Designs-Of_Buttons)!
+If you like this repo, consider giving it a ⭐ on [GitHub](https://github.com/maqsoodkhan840/Designs-Of_Buttons)!  
+It helps others discover it and motivates continued development.
