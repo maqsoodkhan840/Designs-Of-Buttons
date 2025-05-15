@@ -1,3 +1,7 @@
+![Made with HTML & CSS](https://img.shields.io/badge/Made%20with-HTML%20%26%20CSS-orange?style=for-the-badge&logo=html5)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-blue?style=for-the-badge&logo=css3)
+![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
 # 🎨 Designs Of Buttons
 
 A collection of modern and creative button designs built with pure **HTML** and **CSS**. This repository aims to provide clean, reusable button components that can be integrated into any web project for enhanced UI/UX.
