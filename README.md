@@ -8,21 +8,21 @@ A collection of modern and creative button designs built with pure **HTML** and 
 
 ```
 
-Designs-Of-Buttons/<br>
-│<br>
-├── README.md<br>
+Designs-Of-Buttons/
 │
-├── Design Of Buttons/<br>
-│   ├── index.html<br>
-│   └── style.css<br>
-│<br>
-├── Neon Buttons/<br>
-│   ├── index.html<br>
-│   └── style.css<br>
-│<br>
-├── Glowing Buttons/<br>
-│   ├── index.html<br>
-│   └── style.css<br>
+├── README.md
+│
+├── Design Of Buttons/
+│   ├── index.html
+│   └── style.css
+│
+├── Neon Buttons/
+│   ├── index.html
+│   └── style.css
+│
+├── Glowing Buttons/
+│   ├── index.html
+│   └── style.css
 
 ```
 
@@ -70,12 +70,6 @@ Feel free to:
 3. Submit a pull request
 
 Let’s build a rich button design library together!
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
