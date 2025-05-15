@@ -10,17 +10,19 @@ A collection of modern and creative button designs built with pure **HTML** and 
 
 Designs-Of-Buttons/
 │
-├── README.md
+├── README.md                ← Global project README
+├── index.html               ← GitHub Pages homepage
+├── style.css
 │
 ├── design-of-buttons/
 │   ├── index.html
 │   └── style.css
 │
-├── Neon Buttons/
+├── neon-buttons/
 │   ├── index.html
 │   └── style.css
 │
-├── Glowing Buttons/
+├── glowing-buttons/
 │   ├── index.html
 │   └── style.css
 
